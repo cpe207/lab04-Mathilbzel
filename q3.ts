@@ -18,3 +18,5 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+//น.ส.บัวชมพู ฤกษ์สุทธิรัตน์
+//660610768
