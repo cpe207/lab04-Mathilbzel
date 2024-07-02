@@ -1,15 +1,14 @@
-function typeChecker(a, b) {
-    /* Your code here */
-    if (typeof a & b === 'string') {
-        console.log('I LOVE YOU');
+function typeChecker(a, b): string | number{
+    if (typeof a === 'string' && typeof b === 'string') {
+      return 'I LOVE YOU';
     }
-    else if (typeof a & b === 'number') {
-        console.log(a + b);
+    else if (typeof a === 'number' && typeof b === 'number') {
+      return a+b;
     }
-    else {
-        console.log('NOT MATCHED');
+    else{
+      return 'NOT MATCHED';
     }
-}
+  }
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";

@@ -1,4 +1,4 @@
-function typeChecker(a,b) {
+function typeChecker(a, b): string | number{
   if (typeof a === 'string' && typeof b === 'string') {
     return 'I LOVE YOU';
   }
