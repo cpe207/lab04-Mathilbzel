@@ -1,14 +1,14 @@
-function typeChecker(a, b): string | number{
+function typeChecker(a, b) {
     if (typeof a === 'string' && typeof b === 'string') {
-      return 'I LOVE YOU';
+        return 'I LOVE YOU';
     }
     else if (typeof a === 'number' && typeof b === 'number') {
-      return a+b;
+        return a + b;
     }
-    else{
-      return 'NOT MATCHED';
+    else {
+        return 'NOT MATCHED';
     }
-  }
+}
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";
@@ -20,3 +20,5 @@ console.log(typeChecker(a1, b1));
 console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 module.exports = typeChecker;
+//น.ส.บัวชมพู ฤกษ์สุทธิรัตน์
+//660610768
